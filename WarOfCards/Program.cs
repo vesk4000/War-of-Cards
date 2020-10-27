@@ -1,17 +1,8 @@
-﻿/*
- * Created by SharpDevelop.
- * User: zala1
- * Date: 10/26/2020
- * Time: 9:13 AM
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
 using System;
 using System.Collections.Generic;
 
-namespace Cards
-{	
-	class Card 
+
+class Card 
 	{
 		int n, m;
 		
@@ -45,6 +36,9 @@ namespace Cards
 					case 4: Console.WriteLine("hearts"); break;
 			}
 		}
+static class Program
+{
+	
 		
 		public int BetterCardThan(Card other)
 		{
@@ -68,9 +62,17 @@ namespace Cards
 		}
 	}
 	
-	class Program
-	{
-		static Queue<Card> player1 = new Queue<Card>(), computer = new Queue<Card>();
+  public static void PrintHelp(string[] command) {
+		Console.WriteLine("List of possible commands:");
+		Console.WriteLine("help - Show this list of commands");
+		Console.WriteLine("stop - Exit the program");
+	}
+	
+	public static void Start(string[] args) {
+		foreach(string arg in args) {
+        if(arg.IndexOf('=') != -1) {}}}
+  
+  		static Queue<Card> player1 = new Queue<Card>(), computer = new Queue<Card>();
 		
 		public static void Battle(Card currentPlayerCard, Card currentComputerCard, Queue<Card> cardsForWinner)
 		{
@@ -109,10 +111,10 @@ namespace Cards
 			
 			return;
 		}
-		
-		public static void Main(string[] args)
-		{
-			Random rand = new Random();
+	public static void Main(string[] args)
+	{
+    //Ico
+    			Random rand = new Random();
 
 			int randomCard;
 			
@@ -145,5 +147,29 @@ namespace Cards
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
+    //End Ico
+		Console.WriteLine("Welcome to War of Cards!");
+		Console.WriteLine("Type help to see the list of commands.");
+		string command = "";
+		while((command = Console.ReadLine().ToLower()) != "stop") {
+			switch(command.get_args()[0]) {
+				case "help":
+					PrintHelp(command.get_args());
+				break;
+				case "start":
+					string[] cmd = command.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+					foreach(string arg in cmd) {
+						Console.WriteLine(arg);
+					}
+				break;
+			}
+		}
+		
+		/*Console.Write("Press any key to continue . . . ");
+		Console.ReadKey(true);*/
+	}
+	
+	public static string[] get_args(this string s) {
+		return s.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 	}
 }
