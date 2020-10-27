@@ -10,3 +10,10 @@ C:\Users\zala2.MGBERON\Desktop\War-of-Cards-main\WarOfCards\bin\Debug\WarOfCards
 C:\Users\zala2.MGBERON\Desktop\War-of-Cards-main\WarOfCards\bin\Debug\WarOfCards.exe
 C:\Users\zala2.MGBERON\Desktop\War-of-Cards-main\WarOfCards\bin\Debug\WarOfCards.pdb
 C:\Users\zala2.MGBERON\Desktop\War-of-Cards-main\WarOfCards\obj\Debug\WarOfCards.pdb
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\bin\Debug\WarOfCards.exe.config
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\bin\Debug\WarOfCards.exe
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\bin\Debug\WarOfCards.pdb
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.csprojAssemblyReference.cache
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.csproj.CoreCompileInputs.cache
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.exe
+C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.pdb
