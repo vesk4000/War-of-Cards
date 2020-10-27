@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
+
 class Card 
 	{
 		int n, m;
@@ -36,11 +37,7 @@ class Card
 					case 4: Console.WriteLine("hearts"); break;
 			}
 		}
-static class Program
-{
-	
-		
-		public int BetterCardThan(Card other)
+			public int BetterCardThan(Card other)
 		{
 			if (n > other.n)
 			{
@@ -60,8 +57,9 @@ static class Program
 				return 0;
 			}
 		}
-	}
-	
+}
+static class Program
+{	
   public static void PrintHelp(string[] command) {
 		Console.WriteLine("List of possible commands:");
 		Console.WriteLine("help - Show this list of commands");
@@ -106,16 +104,14 @@ static class Program
 					last3ComputerCards[i] = computer.Dequeue();
 				}
 				
-				Battle(last3PlayerCards[2], last3ComputerCards[2]);
+				//Battle(last3PlayerCards[2], last3ComputerCards[2]);
 			}
 			
 			return;
 		}
 	public static void Main(string[] args)
 	{
-    //Ico
-    			Random rand = new Random();
-
+    		/*Random rand = new Random();
 			int randomCard;
 			
 			int player1Cards = 0;
@@ -147,7 +143,7 @@ static class Program
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
-    //End Ico
+    	//End Ico*/
 		Console.WriteLine("Welcome to War of Cards!");
 		Console.WriteLine("Type help to see the list of commands.");
 		string command = "";
@@ -165,8 +161,8 @@ static class Program
 			}
 		}
 		
-		/*Console.Write("Press any key to continue . . . ");
-		Console.ReadKey(true);*/
+		Console.Write("Press any key to continue . . . ");
+		Console.ReadKey(true);
 	}
 	
 	public static string[] get_args(this string s) {
