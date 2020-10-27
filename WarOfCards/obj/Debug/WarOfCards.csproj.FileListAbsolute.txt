@@ -1,0 +1,6 @@
+C:\Users\zala2.MGBERON\Desktop\WarOfCards\WarOfCards\bin\Debug\WarOfCards.exe.config
+C:\Users\zala2.MGBERON\Desktop\WarOfCards\WarOfCards\bin\Debug\WarOfCards.exe
+C:\Users\zala2.MGBERON\Desktop\WarOfCards\WarOfCards\bin\Debug\WarOfCards.pdb
+C:\Users\zala2.MGBERON\Desktop\WarOfCards\WarOfCards\obj\Debug\WarOfCards.csprojResolveAssemblyReference.cache
+C:\Users\zala2.MGBERON\Desktop\WarOfCards\WarOfCards\obj\Debug\WarOfCards.exe
+C:\Users\zala2.MGBERON\Desktop\WarOfCards\WarOfCards\obj\Debug\WarOfCards.pdb
