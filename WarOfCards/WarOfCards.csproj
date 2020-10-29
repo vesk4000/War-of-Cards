@@ -48,6 +48,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IckosCode\GameFunctionality\Actions\CardActions.cs" />
+    <Compile Include="IckosCode\GameFunctionality\MainFunctionality.cs" />
+    <Compile Include="IckosCode\GameFunctionality\Models\Card.cs" />
     <Compile Include="IckosCode\Ico.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,8 +58,6 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="IckosCode" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

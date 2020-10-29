@@ -17,3 +17,10 @@ C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.csprojAsse
 C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.csproj.CoreCompileInputs.cache
 C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.exe
 C:\Vesk\Game Development\War-of-Cards\WarOfCards\obj\Debug\WarOfCards.pdb
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\bin\Debug\WarOfCards.exe.config
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\bin\Debug\WarOfCards.exe
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\bin\Debug\WarOfCards.pdb
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\obj\Debug\WarOfCards.csprojAssemblyReference.cache
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\obj\Debug\WarOfCards.csproj.CoreCompileInputs.cache
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\obj\Debug\WarOfCards.exe
+C:\Vesk\Game Development\War-of-Cards - WIP\WarOfCards\obj\Debug\WarOfCards.pdb
